@@ -117,3 +117,7 @@ if st.button("Predict Category"):
         st.success(f"Predicted Category: {category}")
     else:
         st.error("Please enter both subject and description.")
+
+---
+
+This project is specifically feasible and strategically beneficial for Spopli.com, when extended or integrated into Odoo Helpdesk. 
