@@ -1,6 +1,8 @@
 # 🎟️ Ticket Category Predictor
 
-A machine learning-based web app that predicts the category of a support ticket based on its **subject** and **description**. Built using `scikit-learn`, deployed via `Streamlit` and tunneled to the internet using `ngrok` in a Google Colab environment.
+A machine learning-based web app that predicts the category of a support ticket based on its **subject** and **description**. Built using `scikit-learn`, deployed via `Streamlit` and tunneled to the internet using `ngrok.`
+
+This tool can serve as a prototype for integrating automated ticket triage systems into helpdesk workflows — particularly within platforms like Odoo ERP, where customer support tickets are routed through the Helpdesk module. By reducing the need for manual ticket categorization, this solution can directly improve response time and team efficiency.
 
 ---
 
@@ -119,5 +121,3 @@ if st.button("Predict Category"):
         st.error("Please enter both subject and description.")
 
 ---
-
-This project is specifically feasible and strategically beneficial for Spopli.com, when extended or integrated into Odoo Helpdesk. 
