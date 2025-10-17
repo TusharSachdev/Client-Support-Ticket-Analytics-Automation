@@ -96,24 +96,30 @@ Support ticket management systems often categorize tickets manually, which is ti
 | Confusion Matrix | Analyzed for error patterns |
 
 ---
-
-📊 Key Learnings
-
-— Practical implementation of NLP preprocessing on real-world ticket data.
-— Model comparison and hyperparameter selection in classification problems.
-— Streamlit and ngrok for deploying lightweight ML prototypes from Colab.
-— Feasibility assessment for ERP/CRM integration (e.g., with Odoo).
+Here's the content rewritten in proper **`README.md` GitHub-compatible Markdown format** with bullet points and spacing so it appears cleanly when pasted into your README:
 
 ---
 
-🏢 Application in Real Business Settings 
-At Spopli.com, which uses Odoo ERP, client and internal support tickets are handled via Odoo’s Helpdesk module. This project demonstrates a scalable, modular solution that can:
-— Automatically classify incoming tickets, reducing manual workload.
-— Improve routing logic within Odoo workflows, ensuring tickets are assigned to the right team faster.
-— Enable analytics and reporting by identifying which categories dominate and how they trend over time.
-— Trigger escalation rules or SLA adjustments based on predicted category urgency.
-— Be integrated with Odoo using XML-RPC, JSON-RPC, or external API endpoints.
-— By embedding this classification model into the ERP pipeline, organizations can enhance both customer experience and internal efficiency, without overhauling existing systems.
+## 📊 Key Learnings
+
+* Practical implementation of NLP preprocessing on real-world ticket data.
+* Model comparison and hyperparameter selection in classification problems.
+* Streamlit and ngrok for deploying lightweight ML prototypes from Colab.
+* Feasibility assessment for ERP/CRM integration (e.g., with Odoo).
+
+---
+
+## 🏢 Application in Real Business Settings
+
+At **Spopli.com**, which uses **Odoo ERP**, client and internal support tickets are handled via Odoo’s Helpdesk module. This project demonstrates a scalable, modular solution that can:
+
+* Automatically classify incoming tickets, reducing manual workload.
+* Improve routing logic within Odoo workflows, ensuring tickets are assigned to the right team faster.
+* Enable analytics and reporting by identifying which categories dominate and how they trend over time.
+* Trigger escalation rules or SLA adjustments based on predicted category urgency.
+* Be integrated with Odoo using XML-RPC, JSON-RPC, or external API endpoints.
+
+By embedding this classification model into the ERP pipeline, organizations can enhance both **customer experience** and **internal efficiency**, without overhauling existing systems.
 
 ---
 
