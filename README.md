@@ -96,7 +96,6 @@ Support ticket management systems often categorize tickets manually, which is ti
 | Confusion Matrix | Analyzed for error patterns |
 
 ---
----
 
 📊 Key Learnings
 
