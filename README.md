@@ -17,7 +17,6 @@ A machine learning-based web app that predicts the category of a support ticket 
 - [🌐 Ngrok Tunneling in Colab](#-ngrok-tunneling-in-colab)
 - [📊 Key Learnings](#-key-learnings)
 - [🔮 Future Improvements](#-future-improvements)
-- [🚀 How to Run the App](#-how-to-run-the-app)
 - [📄 License](#-license)
 
 ---
