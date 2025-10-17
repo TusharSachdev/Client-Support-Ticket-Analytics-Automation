@@ -173,4 +173,4 @@ if st.button("Predict Category"):
     else:
         st.error("Please enter both subject and description.")
 
-
+---
