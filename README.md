@@ -96,30 +96,6 @@ Support ticket management systems often categorize tickets manually, which is ti
 | Confusion Matrix | Analyzed for error patterns |
 
 ---
-
-## 🧪 Streamlit App
-
-The app allows users to:
-
-- Enter the **subject** and **description** of a ticket.
-- Click "Predict Category".
-- Get the predicted ticket category instantly.
-
-Sample code from `app.py`:
-
-```python
-st.title("Ticket Category Predictor")
-
-subject = st.text_input("Ticket Subject")
-description = st.text_area("Ticket Description")
-
-if st.button("Predict Category"):
-    if subject and description:
-        category = predict_category(subject, description)
-        st.success(f"Predicted Category: {category}")
-    else:
-        st.error("Please enter both subject and description.")
-
 ---
 
 📊 Key Learnings
@@ -173,3 +149,28 @@ Absolutely! Here's the **🔮 Future Improvements** section properly formatted u
 * Display **category prediction probabilities** using **interactive bar charts** for better transparency.
 
 ---
+
+## 🧪 Streamlit App
+
+The app allows users to:
+
+- Enter the **subject** and **description** of a ticket.
+- Click "Predict Category".
+- Get the predicted ticket category instantly.
+
+Sample code from `app.py`:
+
+```python
+st.title("Ticket Category Predictor")
+
+subject = st.text_input("Ticket Subject")
+description = st.text_area("Ticket Description")
+
+if st.button("Predict Category"):
+    if subject and description:
+        category = predict_category(subject, description)
+        st.success(f"Predicted Category: {category}")
+    else:
+        st.error("Please enter both subject and description.")
+
+
