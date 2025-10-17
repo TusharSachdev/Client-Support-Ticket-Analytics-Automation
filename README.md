@@ -118,11 +118,6 @@ At Spopli.com, which uses Odoo ERP, client and internal support tickets are hand
 
 ---
 
-
-Absolutely! Here's the **🔮 Future Improvements** section properly formatted using **GitHub-compatible Markdown syntax**, including proper bullet points and sub-bullets (using indentation and dashes `-`). You can **copy and paste this directly into your `README.md`**, and it will render correctly on GitHub:
-
----
-
 ## 🔮 Future Improvements
 
 ### 📈 Model Enhancement
