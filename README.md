@@ -96,9 +96,6 @@ Support ticket management systems often categorize tickets manually, which is ti
 | Confusion Matrix | Analyzed for error patterns |
 
 ---
-Here's the content rewritten in proper **`README.md` GitHub-compatible Markdown format** with bullet points and spacing so it appears cleanly when pasted into your README:
-
----
 
 ## 📊 Key Learnings
 
